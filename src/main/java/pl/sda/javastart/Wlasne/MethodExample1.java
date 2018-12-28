@@ -18,7 +18,7 @@ public class MethodExample1 {
 
     }
 
-    public static int rectangleArea(int a, int b) {
+    public static int rectangleArea(int a, int b) {     // int rodzaj zwracanej wartosci, nazwa metody , wartosci przyjmowane
         int result = a * b;
         return result;
     }
