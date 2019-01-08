@@ -4,6 +4,9 @@ import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Calculator {
+    public String add;
+    public String divide;
+
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Wprowadź pierwszą liczbę");

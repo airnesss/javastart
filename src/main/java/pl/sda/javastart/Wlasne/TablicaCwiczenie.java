@@ -13,4 +13,5 @@ public class TablicaCwiczenie {                        //wypelnij tablice elemen
 
 
     }
+
 }

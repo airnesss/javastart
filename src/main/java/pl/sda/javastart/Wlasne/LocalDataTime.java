@@ -1,7 +1,7 @@
 package pl.sda.javastart.Wlasne;
 import java.time.LocalDateTime;
 
-public class Aleksy {
+public class LocalDataTime {
     public static void main(String[] args) {
         //System.out.println(przwitajOsobe("Marcin", 55,true));
         System.out.println(wydrukujCzas());

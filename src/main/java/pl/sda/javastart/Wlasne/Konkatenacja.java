@@ -1,6 +1,6 @@
 package pl.sda.javastart.Wlasne;
 
-public class WażneNiuanse {
+public class Konkatenacja {
     public static void main(String[] args) {
         char letter1 = 'k';
         char letter2 = 'o';

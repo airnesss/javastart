@@ -3,7 +3,7 @@ package pl.sda.javastart.Wlasne;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class ZadaniaZMateuszemNext {
+public class Task9and10 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(reverseArray(new int[]{1,2,3})));   //Arrays.toString - drukowanie tablicy jako String
         getFiveNumbers(5);

@@ -2,7 +2,7 @@ package pl.sda.javastart.Wlasne;
 
 public class TestResult {
     public static void main(String[] args) {
-        System.out.println(testResult(4));
+        System.out.println(testResult(80));
     }
 
     public static int testResult(int wynik) {

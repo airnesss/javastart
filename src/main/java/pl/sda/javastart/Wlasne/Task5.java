@@ -1,6 +1,6 @@
 package pl.sda.javastart.Wlasne;
 
-public class TaskFive {
+public class Task5 {
     public static void main(String[] args) {
         int a = 1;
         int b = 2;

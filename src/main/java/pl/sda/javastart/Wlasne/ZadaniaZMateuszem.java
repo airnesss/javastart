@@ -31,7 +31,7 @@ public class ZadaniaZMateuszem {
         return 32.0 / (9.0 /5.0) * temperature;     // zmienno przecinkowe bo przyjmuje i zwraca double
     }
      // zmiana z farenchait na celciusz
-    private static double changeFartoCl (double temperature){       //[ºC]=([ºF]-32)*5/9
+    private static double changeFartoCl (double temperature){
         return (temperature - 32.0)* 5.0/9.0;
     }
     //zmiana podanej ilosci minut na liczbe pewnych kwadransow
