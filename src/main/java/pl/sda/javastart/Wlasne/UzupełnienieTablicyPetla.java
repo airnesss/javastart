@@ -6,8 +6,7 @@ public class UzupełnienieTablicyPetla {
         //uzupełniamytablice
         for (int i = 0; i < numery.length; i++) {
             numery[i] = i + 1;
-        }
-        for (int i = 0; i < numery.length; i++) {
+
             System.out.println("liczba " + numery[i]);
         }
     }
