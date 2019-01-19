@@ -1,5 +1,7 @@
 package pl.sda.javastart.day2;
 
+import java.util.stream.IntStream;
+
 public class ForsExample {
     public static void main(String[] args) {
         for (int i = 0; i < 4; i++)
@@ -42,8 +44,10 @@ public class ForsExample {
             }
             sum = i + sum;
 
+
         }
         System.out.println(sum);
+
     }
 
 }

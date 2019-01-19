@@ -1,8 +1,9 @@
 package pl.sda.javastart.day6;
 
 import java.math.BigDecimal;
+import java.util.Objects;
 
-public abstract class Person {
+public abstract class Person implements Comparable<Person> {
 
     private String firstName;                                //to są pola !!
     private String lastName;
@@ -51,6 +52,35 @@ public abstract class Person {
 
     public void setAge(Integer age) {
         this.age = age;
+    }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +                     //DZIEn 7
+                ", lastName='" + lastName + '\'' +
+                ", identity=" + identity +
+                ", age=" + age +
+                '}';
+    }
+
+    @Override
+    public int compareTo(Person o) {
+        return this.identity.compareTo(o.getIdentity());
+
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Objects.equals(identity, person.identity);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(identity);
     }
 }
 

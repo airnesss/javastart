@@ -1,9 +1,11 @@
 package pl.sda.javastart.day4;
 
+import pl.sda.javastart.day7.ColorEnum;
+
 import java.math.BigDecimal;
 
 public class Car {
-    private String colour;
+    private ColorEnum colour;
     private String model;
     private String manufacturer;
     private String vin;
@@ -24,10 +26,10 @@ public class Car {
 
     }
 
-    public String getColour (){
+    public ColorEnum getColour (){
         return colour;
     }
-    public void setColour(String colour){
+    public void setColour(ColorEnum colour){
         this.colour = colour;                                 //this zeby sie nie dublowalo z nazwa
 
     }
