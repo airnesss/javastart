@@ -7,11 +7,12 @@ public class Company {
         employees[1] = new Employee("Adam", "Rudnicki", 1200);
         employees[2] = new Employee("Marcin", "Kierzkowski", 22000);
         int employeeIndex = 3;
-        System.out.println(employees[employeeIndex-1].getFirstName() + " "
+        System.out.println(employees[employeeIndex].getFirstName() + " "
                 + employees[employeeIndex-1].getLastName() + " " + employees[employeeIndex-1].getSalary() + "zł" );
 
         int employeeSize = employees.length;
         System.out.println("Wielkość tablicy to " + employeeSize);
+        System.out.println("Ostatni elemnt w tablicy to :" + employees[employeeSize-1]);
 
     }
 
