@@ -43,7 +43,7 @@ public class StreamsExample {
             }
             System.out.print(animal + ",");             // todo brak przecinka po ostatnim
         }
-        System.out.println("# teraz strem :");
+        System.out.println("# teraz stream :");
         String result = Arrays.stream(animals)
                 .filter(a -> StringUtils.isNotBlank(a))                   //isnotblank sprawdza czy nie sa empty null i blank METODA STATYCZNA
                 .map(a -> a.trim())

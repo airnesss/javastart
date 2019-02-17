@@ -5,20 +5,24 @@ public class WF {
         cwiczenia(2);
 
     }
-    private static void cwiczenia(int iloscCwiczen){
-        for (int i = 0; i <iloscCwiczen ; i++) {
-            System.out.println("gwizdnij");         // ta pętla decyduje o ilosci iteracji dalszych pętli
-            for (int j = 0; j <4 ; j++)
+    private static void cwiczenia(int iloscCwiczen) {
+        
+        for (int i = 0; i < iloscCwiczen; i++) {
+            System.out.print("gwizdnij");                // ta pętla decyduje o ilosci iteracji dalszych pętli
+
+            for (int j = 0; j < iloscCwiczen; j++)
                 System.out.print("klasnij");
-                for (int k = 0; k <3 ; k++)
+
+                for (int k = 0; k < iloscCwiczen; k++)
                     System.out.print("pierdnij");
-                    for (int l = 0; l <2 ; l++)
-                        System.out.println("skocz");
-                        System.out.println();
 
-                    }
-
-                }
+                for (int l = 0; l < iloscCwiczen; l++)
+                    System.out.print("skocz");
+                System.out.println();
 
             }
+
+        }
+
+    }
 
